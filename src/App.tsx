@@ -1,6 +1,17 @@
+import Header from "./components/Header";
+import Rezession from "./components/Rezession";
+
 function App() {
   return (
-	  <h1>Hello </h1>
+    <div className="bg-slate-400">
+      <Header />
+	<Rezession />
+      {/*
+		<Rezession/>
+		<Footer />
+
+			*/}
+    </div>
   );
 }
 
