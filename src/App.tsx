@@ -3,9 +3,9 @@ import Rezession from "./components/Rezession";
 
 function App() {
   return (
-    <div className="bg-slate-400">
+    <div className="gradientBG">
       <Header />
-	<Rezession />
+      <Rezession />
       {/*
 		<Rezession/>
 		<Footer />
